@@ -1,4 +1,4 @@
-# TrustySort JavaAlgorithms
+# TrustySort Java Algorithms
 
 1.[Description](#description)
 
