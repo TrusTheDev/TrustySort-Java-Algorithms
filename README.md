@@ -15,22 +15,22 @@ This library provides efficient implementations of various sorting algorithms, d
 ** Disclaimer: The algorithms implemented in this library are inspired by the resources provided on [GeeksforGeeks](https://www.geeksforgeeks.org/ "GeeksforGeeks") and got a little modification specifically to ensure a proper use of all of them as methods. All credit goes to the authors and contributors of the original content. **
 
 ## Method Calls
-| Method | Time Complexity | 
-| ------------- | ------------- |
- | bubbleSort(int[] arr) | Best case (when the list is nearly sorted): O(n) Average case: O(n²) Worst case (when the list is reversed): O(n²) | 
- | bucketSort(float[] arr) | Best, average, and worst case: O(n + k), where n is the number of elements and k is the number of buckets. It is efficient when the data is evenly distributed across buckets. | 
- | countSort(int[] arr) | Best, average, and worst case: O(n + k), where n is the number of elements and k is the range of the values. It's efficient when the range k is small compared to n. | 
- | gnomeSort(int[] arr, arr.length) | Best case: O(n) Average and worst case: O(n²) | 
- | heapSort(int[] arr) | Best, average, and worst case: O(n log n) HeapSort has consistent O(n log n) performance and is not affected by the input order. | 
- | insertionSort(int[] arr) | Best case (when the list is nearly sorted): O(n)Average and worst case: O(n²) InsertionSort performs well for small or nearly sorted datasets. | 
- | mergeSort(int[] arr, 0, arr.length - 1) | Best, average, and worst case: O(n log n)MergeSort guarantees O(n log n) performance but requires extra memory due to recursion. | 
- | quickSort(int[] arr, 0, arr.length - 1) | Best and average case: O(n log n) Worst case (if the pivot is chosen poorly): O(n²) QuickSort is generally very efficient, but performance depends on pivot selection. | 
- | radixsort(int[] arr, arr.length)  | Best, average, and worst case: O(nk), where n is the number of elements and k is the number of digits or bits (in the case of integers). RadixSort is efficient when k is small compared to n. | 
- | selectionSort(int[] arr) | Best, average, and worst case: O(n²)SelectionSort performs the same number of operations regardless of input order and is inefficient for large lists. | 
- 
- | Utility | Description | 
-| ------------- | ------------- |
-| printElements(int[] arr) | print all elements with the array given| 
+| Method                             | Time Complexity                                                                                       |
+|------------------------------------|------------------------------------------------------------------------------------------------------|
+| bubbleSort(int[] arr)              | Best case: O(n) (nearly sorted). Average & Worst case: O(n²) (reversed list).                        |
+| bucketSort(float[] arr)            | O(n + k), where n is elements and k is the number of buckets. Efficient with evenly distributed data.|
+| countSort(int[] arr)               | O(n + k), where n is elements and k is the range of values. Efficient when k is small.               |
+| gnomeSort(int[] arr, arr.length)   | Best case: O(n). Average & Worst case: O(n²).                                                          |
+| heapSort(int[] arr)                | O(n log n) in all cases. Consistent performance, independent of input order.                          |
+| insertionSort(int[] arr)           | Best case: O(n) (nearly sorted). Average & Worst case: O(n²). Efficient for small/nearly sorted data. |
+| mergeSort(int[] arr, 0, arr.length - 1) | O(n log n) in all cases. Requires extra memory for recursion.                                           |
+| quickSort(int[] arr, 0, arr.length - 1) | Best & Average case: O(n log n). Worst case: O(n²) (poor pivot). Efficient but depends on pivot choice. |
+| radixsort(int[] arr, arr.length)   | O(nk), where n is elements and k is the number of digits/bits. Efficient when k is small.             |
+| selectionSort(int[] arr)           | O(n²) in all cases. Inefficient for large lists, same number of operations regardless of order.      |
+
+| Utility                           | Description                                                                                           |
+|------------------------------------|------------------------------------------------------------------------------------------------------|
+| printElements(int[] arr)          | Prints all elements of the given array.                                                               |
 
 
 ## Instalation guide / dependencies 
