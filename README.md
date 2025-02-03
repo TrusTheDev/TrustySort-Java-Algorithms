@@ -2,7 +2,7 @@
 
 1.[Description](#description)
 
-2.[Method calls](#Methods)
+2.[Method calls](#Methods-Calls)
 
 3.[Installation Guide](#instalation-guide--dependencies)
 
