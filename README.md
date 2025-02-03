@@ -14,7 +14,7 @@ This library provides efficient implementations of various sorting algorithms, d
 
 ** Disclaimer: The algorithms implemented in this library are inspired by the resources provided on [GeeksforGeeks](https://www.geeksforgeeks.org/ "GeeksforGeeks") and got a little modification specifically to ensure a proper use of all of them as methods. All credit goes to the authors and contributors of the original content. **
 
-##Methods-Calls
+## Methods Calls
 | Method                             | Time Complexity                                                                                       |
 |------------------------------------|------------------------------------------------------------------------------------------------------|
 | bubbleSort(int[] arr)              | Best case: O(n) (nearly sorted). Average & Worst case: O(n²) (reversed list).                        |
