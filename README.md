@@ -12,7 +12,7 @@
 -------------
 This library provides efficient implementations of various sorting algorithms, designed to facilitate the organization of data in a swift and precise manner. Each algorithm has been carefully optimized to ensure fast and reliable execution, adapting to different scenarios and processing needs. With a focus on simplicity and efficiency, this tool was born to help students with their logic by giving them raw code without explanation to make them try to understand them and experiment with it, also you can use it for your own applications.
 
-** Disclaimer: The algorithms implemented in this library are inspired by the resources provided on [GeeksforGeeks](https://www.geeksforgeeks.org/ "GeeksforGeeks") and got a little modification specifically to ensure a proper use of all of them as methods. All credit goes to the authors and contributors of the original content. **
+*** Disclaimer: The algorithms implemented in this library are inspired by the resources provided on [GeeksforGeeks](https://www.geeksforgeeks.org/ "GeeksforGeeks") and got a little modification specifically to ensure a proper use of all of them as methods. All credit goes to the authors and contributors of the original content. ***
 
 ## Methods Calls
 | Method                             | Time Complexity                                                                                       |
