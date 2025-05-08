@@ -35,7 +35,7 @@ __Disclaimer: The algorithms implemented in this library are inspired by the res
 
 ## Instalation guide / dependencies 
 -------------
-* [Java (latest)](https://www.oracle.com/java/technologies/downloads/ "Java (latest)")
+* [Java 23](https://www.oracle.com/java/technologies/downloads/ "Java (latest)")
 * IDE of your choise to test.
 
 In order to use it just clone the repository wherever you want and add it as a library to the project structure by adding the .jar file to your project's build path.
